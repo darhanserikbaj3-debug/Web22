@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Academy - Authentic Italian Recipes</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-cooking border-bottom-red">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <span class="cooking-logo">Cooking</span>
+                    <span class="ms-2 fs-6 fw-bold text-uppercase tracking-wide d-none d-sm-inline text-light">Academy</span>
+                </a>
+                
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#cookingNavbar" aria-controls="cookingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="cookingNavbar">
+                    <ul class="navbar-nav gap-2 mt-2 mt-lg-0">
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#top-recipes">Top Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#cooking-secrets">Cooking Secrets</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#portfolio">Web Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content-container py-4">
+        <div class="container">
+
+            <section id="overview" class="section-block text-center text-md-start">
+                <span class="badge bg-cooking-red text-uppercase px-3 py-2 mb-2">Master the Basics</span>
+                <h1 class="responsive-heading fw-bold color-cooking-blue mb-3">
+                    The Art of Homemade Pasta Carbonara
+                </h1>
+                <p class="responsive-lead fw-semibold text-secondary">
+                    Authentic Italian pasta requires the perfect balance of fresh ingredients, precise timing, and proper cooking techniques.
+                </p>
+            </section>
+
+            <section id="top-recipes" class="section-block">
+                <div class="section-header mb-4">
+                    <h2 class="section-title color-cooking-blue">Top 3 Italian Recipes</h2>
+                    <p class="text-muted mb-0 fw-semibold">Explore time-honored pasta classics crafted with authentic regional techniques and fresh ingredients.</p>
+                </div>
+                
+                <div class="recipes-container">
+                    <div class="recipe-card">
+                        <div class="card-tag">Classic</div>
+                        <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=800&auto=format&fit=crop" alt="Spaghetti Carbonara">
+                        <div class="recipe-card-body">
+                            <h4>Spaghetti Carbonara</h4>
+                            <p>Crispy guanciale, fresh egg yolks, Pecorino Romano cheese, and freshly cracked black pepper.</p>
+                            <a href="#" class="btn btn-cooking mt-auto">View Recipe</a>
+                        </div>
+                    </div>
+                    
+                    <div class="recipe-card">
+                        <div class="card-tag">Traditional</div>
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop" alt="Tagliatelle Bolognese">
+                        <div class="recipe-card-body">
+                            <h4>Tagliatelle Bolognese</h4>
+                            <p>Rich beef and tomato ragù slow-cooked to perfection in traditional Italian fashion.</p>
+                            <a href="#" class="btn btn-cooking mt-auto">View Recipe</a>
+                        </div>
+                    </div>
+                    
+                    <div class="recipe-card">
+                        <div class="card-tag">Fresh</div>
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=800&auto=format&fit=crop" alt="Penne Pesto">
+                        <div class="recipe-card-body">
+                            <h4>Penne with Pesto</h4>
+                            <p>Aromatic basil, pine nuts, Extra Virgin olive oil, and aged Parmigiano Reggiano.</p>
+                            <a href="#" class="btn btn-cooking mt-auto">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cooking-secrets" class="section-block">
+                <div class="section-header mb-4">
+                    <h2 class="section-title color-cooking-blue">Essential Cooking Secrets</h2>
+                    <p class="text-muted mb-0 fw-semibold">Master key techniques used by professional chefs to elevate simple ingredients into perfect dishes.</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cooking-feature-box h-100">
+                            <div class="step-num">01</div>
+                            <h3>Water Ratio</h3>
+                            <p>Follow the golden 1-10-100 rule: 1 liter of water and 10 grams of salt for every 100 grams of pasta.</p>
+                            <a href="#" class="btn btn-outline-cooking btn-sm mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cooking-feature-box h-100">
+                            <div class="step-num">02</div>
+                            <h3>Al Dente Precision</h3>
+                            <p>Boil the pasta for exactly 1 minute less than indicated on the package to finish cooking in the sauce.</p>
+                            <a href="#" class="btn btn-outline-cooking btn-sm mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cooking-feature-box h-100">
+                            <div class="step-num">03</div>
+                            <h3>Save Pasta Water</h3>
+                            <p>Reserve half a cup of starchy pasta water to create a smooth, creamy sauce emulsion without heavy cream.</p>
+                            <a href="#" class="btn btn-outline-cooking btn-sm mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="section-block border-0 mb-0">
+                <div class="section-header mb-4">
+                    <h2 class="section-title color-cooking-blue">Web Portfolio & Showcase</h2>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-12 col-lg-8">
+                        <h3 class="fw-bold text-uppercase color-cooking-blue mb-3 fs-5">Culinary Web Projects</h3>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <div class="portfolio-card h-100">
+                                    <div class="portfolio-card-body">
+                                        <h5>Cooking Timer Calculator</h5>
+                                        <p>A web application calculating precise Al Dente cooking times for every pasta cut.</p>
+                                        <a href="#top-recipes" class="btn btn-cooking btn-sm mt-auto">Open App</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-sm-6">
+                                <div class="portfolio-card h-100">
+                                    <div class="portfolio-card-body">
+                                        <h5>Pasta & Sauce Pairing</h5>
+                                        <p>An interactive guide matching pasta shapes with ideal traditional Italian sauces.</p>
+                                        <a href="#cooking-secrets" class="btn btn-cooking btn-sm mt-auto">Open App</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <aside class="cooking-sidebar p-4 h-100">
+                            <h4 class="sidebar-title color-cooking-blue fw-bold mb-3">About Student</h4>
+                            <div class="developer-info mb-4">
+                                <p class="mb-1 fw-bold fs-6">Serikbai Darkhan</p>
+                                <p class="mb-1 text-muted"><strong>University:</strong> Astana IT University</p>
+                            </div>
+
+                            <h4 class="sidebar-title color-cooking-blue fw-bold mb-3">Contact Info</h4>
+                            <ul class="list-unstyled mb-0 small">
+                                <li class="mb-2">📍 Astana, Kazakhstan</li>
+                                <li class="mb-2">📧 254430@astanait.edu.kz</li>
+                                <li>💻 <a href="https://github.com" target="_blank" class="text-decoration-none fw-bold color-cooking-red">GitHub</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer py-4 bg-cooking text-white border-top-red">
+        <div class="container text-center">
+            <p class="mb-1 fw-bold">&copy; Serikbai Darkhan SE-2540</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
