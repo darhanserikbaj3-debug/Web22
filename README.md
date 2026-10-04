@@ -89,4 +89,4 @@ A responsive web page ("Cooking Academy") built using **CSS3 Media Queries** and
   - *Desktop View:*  
     ![alt text](image-4.png)
   - *Mobile/Tablet View:*  
-    ![alt text](image-3.png)
+    ![alt text](image-3.png).# web3
